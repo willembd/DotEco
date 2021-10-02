@@ -1,0 +1,140 @@
+.card {
+    background: #FFFFFF;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 1.5rem;
+}
+
+.card-body {
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title1 {
+    margin-top: 3rem;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: .1rem;
+    color: #4EEEA1;
+}
+
+.subTitle {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #A4A4A4;
+}
+
+.btnRegister {
+    /* Button */
+    background: #4EEEA1;
+    border: 3px solid #4EEEA1;
+    border-radius: 30px;
+    width: 150px;
+    height: 40px;
+    margin-top: .6rem;
+    margin-bottom: 4rem;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    box-shadow: 0px 0 0 #FFFFFF inset;
+    /* Text */
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btnRegister:hover {
+    box-shadow: -150px 0 0 #FFFFFF inset;
+    color: #4EEEA1;
+}
+
+.btnReturn {
+    background: #4EEEA1;
+    border: 3px solid #FFFFFF;
+    border-radius: 30px;
+    width: 176px;
+    height: 48px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+    box-shadow: 0px 0 0 #4EEEA1 inset;
+}
+
+.btnReturn:hover {
+    box-shadow: -150px 0 0 #FFFFFF inset;
+    color: #4EEEA1;
+}
+
+.btnBlocoLogo p {
+    color: #FFFFFF;
+}
+
+.form-control {
+    height: 1.5rem;
+    background: #E6E6E6;
+}
+
+input {
+    max-width: 35rem;
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    border-radius: .5rem;
+}
+
+label {
+    font-weight: 900;
+    font-size: .8rem;
+    line-height: .3rem;
+    color: darkgrey;
+    transition: .7s;
+}
+
+.panelRegister {
+    color: #FFFFFF;
+    background: #4EEEA1;
+    padding-top: .9rem;
+    padding-bottom: .9rem;
+    border-radius: 0rem 1.5rem 1.5rem 0rem;
+}
+
+.nav-link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: #4EEEA1;
+    text-decoration: none;
+}
+
+div.Title2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.doteco p{
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

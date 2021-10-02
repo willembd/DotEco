@@ -15,6 +15,7 @@ import { RequestRecycleComponent } from './Pages/request-recycle/request-recycle
 import { RecoveryComponent } from './Pages/recovery/recovery.component';
 import { ProfileComponent } from './Pages/profile/profile.component';
 import { DashboardComponent } from './Pages/dashboard/dashboard.component';
+import { RegistercompanyComponent } from './Pages/registercompany/registercompany.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { DashboardComponent } from './Pages/dashboard/dashboard.component';
     RecoveryComponent,
     ProfileComponent,
     DashboardComponent,
+    RegistercompanyComponent,
   ],
   imports: [
     BrowserModule,
